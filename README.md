@@ -1,0 +1,1 @@
+This project is an attempt at making a page which looks similar to the Google home-page.
