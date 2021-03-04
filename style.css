@@ -1,0 +1,18 @@
+.Googlelogo {
+    text-align: center;
+    display: block;
+    margin-top: 200px;
+}
+
+.SearchBar {
+    text-align: center;
+    left: -50px;
+}
+
+#Search {
+    border-radius: 25px;
+    border: 2px solid #609;
+    padding: 20px; 
+    width: 200px;
+    height: 15px;  
+}
