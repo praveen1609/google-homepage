@@ -1,35 +1,81 @@
+.fbar {
+    /* display: block; */
+    position: absolute;
+    top: 780px;
+    background-color:lightgreen;
+}
+
 .Googlelogo {
     text-align: center;
     display: block;
     margin-top: 200px;
 }
 
+
+.bar {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.Gsearch {
+    font-size: 20px;
+    position: relative;
+    left: -15px;
+    border: none;
+    padding: 13px 13px;
+    cursor: pointer;
+}
+
+.Gsearch:hover {
+    font-size:22.5px;
+}
+
+.Lucky {
+    font-size: 20px;
+    right: -7px;
+    border: none;
+    padding: 13px 13px;
+    cursor: pointer;
+}
+
+.Lucky:hover {
+    font-size: 22.5px;
+}
+
+img {
+    height: 92px;
+    width: 272px;
+}
+
 .SearchBar {
     text-align: center;
     left: -50px;
+    margin-top: 15px;
 }
 
 #Search {
-    border-radius: 25px;
-    border: 2px solid #609;
+    border-bottom-color: rgb(223,225,229);
+    border-left-color: rgb(223,225,229);
+    border-right-color: rgb(223,225,229);
+    border-top-color: rgb(223,225,229);
+    border-radius: 30px;
     padding: 20px; 
-    width: 200px;
+    width: 700px;
     height: 15px;  
 }
 
 .Navbar {
     position : absolute;
     top: 10px;
-
 }
 
-.Navbar ul {
+ ul {
     list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.Navbar ul li {
+li {
     float: left;
 }
 
@@ -45,11 +91,20 @@
     margin-left: 3px;
 }
 
-.Navbar a {
+ a {
     display: block;
   padding: 8px;
   color: black;
   text-align: center;
   background-color: #ffffff;
   text-decoration: none;
+}
+
+.fbar li {
+    display: block;
+    margin-left: 5px;
+}
+
+#priv {
+    margin-left: 900px;
 }
